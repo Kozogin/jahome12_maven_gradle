@@ -1,0 +1,14 @@
+
+apply plugin: 'java-library'
+apply plugin: 'war'
+
+repositories {    
+    jcenter() 
+}
+
+dependencies { 
+    testImplementation 'junit:junit:4.12'    
+    runtime 'javax.servlet.jsp:javax.servlet.jsp-api:2.3.3'   
+    runtime 'javax.servlet.jsp.jstl:jstl-api:1.2' 
+}
+
